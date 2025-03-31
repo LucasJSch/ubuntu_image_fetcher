@@ -1,0 +1,21 @@
+# Ignore build artifacts
+build/
+generated_tar/
+
+# Ignore common OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore CMake-generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore compiled binaries
+*.o
+*.out
+*.a
+*.so
+*.exe
+ubuntu_fetcher
