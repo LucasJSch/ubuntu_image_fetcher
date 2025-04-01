@@ -1,15 +1,5 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <map>
-#include <ctime>
-#include <chrono>
-#include <cpr/cpr.h>
-#include <nlohmann/json.hpp>
-
 #include "ubuntu_cloud_image_fetcher.hpp"
 
-using json = nlohmann::json;
 
 
 int main(int argc, char* argv[]) {
