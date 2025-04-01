@@ -1,3 +1,6 @@
+# Overview
+This project provides a simple command-line tool to fetch the latest Ubuntu Docker images and their SHA256 checksums. It uses a Docker image to run the tool, ensuring a consistent environment across different systems.
+
 # Build the Docker image
 `docker build -t ubuntu_image_fetcher .`
 
